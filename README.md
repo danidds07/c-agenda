@@ -1,31 +1,33 @@
-# Sistema de Agenda em C
+**English** | [Português](README.pt-BR.md)
 
-Aplicação de terminal para cadastrar, listar, editar, remover e buscar contatos, com persistência em arquivo. Fiz esse projeto pra praticar structs, manipulação de arquivos e organização de código em C, sem bibliotecas externas — só stdio, stdlib e string da biblioteca padrão.
+# Contact Book in C
 
-## Funcionalidades
+A terminal application to add, list, edit, remove and search contacts, with data saved to a file. I built it to practice structs, file handling and code organization in C, with no external libraries, only stdio, stdlib and string from the standard library.
 
-- Adicionar contato
-- Listar contatos cadastrados
-- Editar contato existente
-- Remover contato
-- Buscar contato
-- Armazenamento persistente em arquivo (leitura e escrita via fopen/fread/fwrite)
+## Features
 
-## Tecnologias
+- Add a contact
+- List saved contacts
+- Edit an existing contact
+- Remove a contact
+- Search for a contact
+- Persistent storage in a file (read and write with fopen/fread/fwrite)
+
+## Tech stack
 
 - C
-- Biblioteca padrão (stdio, stdlib, string)
-- Structs para modelar os contatos
-- Manipulação de arquivos para persistência dos dados
+- Standard library (stdio, stdlib, string)
+- Structs to model contacts
+- File handling for data persistence
 
-## Como executar
+## How to run
 
 ```
 gcc agenda.cpp -o agenda
 ./agenda
 ```
 
-## Estrutura do projeto
+## Project structure
 
 ```
 c-agenda-system/
@@ -33,6 +35,6 @@ c-agenda-system/
 └── README.md
 ```
 
-## Autor
+## Author
 
 Daniel Augusto Silva
